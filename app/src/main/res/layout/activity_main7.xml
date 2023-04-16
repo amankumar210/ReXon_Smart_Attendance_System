@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cgusmartattendance.aman.facerecognition.MainActivity7">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="57dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewsuccess"
+        app:srcCompat="@drawable/tick" />
+
+    <TextView
+        android:id="@+id/textViewdate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewname1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewname1"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewtime1"
+        app:layout_constraintStart_toStartOf="@+id/textViewtime1"
+        app:layout_constraintTop_toTopOf="@+id/textviewname"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewsuccess"
+        style="@android:style/Widget.DeviceDefault.Light.TextView"
+        android:layout_width="240dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="210dp"
+        android:text="Hurray ! Attendance Marked Successfully"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#00FF00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check In Time :"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewtime1"
+        app:layout_constraintStart_toStartOf="@+id/textViewdate"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Date :"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textviewname"
+        app:layout_constraintTop_toBottomOf="@+id/textviewname"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewtime1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="38dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewtime"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdate1"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textviewname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="158dp"
+        android:text="Name :"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
